@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+}
+.container{
+  text-align: center;
+}
+
+.container h5{
+  color: #fff;
+  margin-top: 10px;
+}
+
+.container h3 a {
+  color: black;
+  text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 11px 5px;
+  position: relative;
+}
+
+.container h3 a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.4s ease 0s, left 0.4s ease 0s;
+  width: 0;
+}
+
+.container h3 a:hover:after {
+  width: 100%;
+  left: 0;
+}
