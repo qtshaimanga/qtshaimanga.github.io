@@ -7,7 +7,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90%;
+  height: 87.5%;
   font-family: Helvetica, sans-serif;
   background-color: black;
 }
@@ -41,10 +41,6 @@ body {
   margin-left: 4px;
 }
 
-.container a .icons {
-  width: 3.8vh;
-}
-
 .container a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -65,4 +61,31 @@ body {
 .container a:hover:after {
   width: 100%;
   left: 0;
+}
+
+.container a .icons {
+  width: 3.8vh;
+}
+
+.footer {
+  position: absolute;
+  color: #fff;
+  opacity: 0.8;
+  letter-spacing: 0.05em;
+  bottom: 0px;
+  right: 25px;
+  width: 15.4vw;
+  cursor: default;
+  text-align: right;
+  border-bottom: solid 1px #555555;
+}
+
+.footer h5 a {
+  color: #fff;
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+.footer h5 a:hover {
+  opacity: 1;
 }
